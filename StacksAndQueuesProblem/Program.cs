@@ -10,7 +10,11 @@ namespace StacksAndQueuesProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Stack and Queues problem");
+            StackLinkedList stackLinkedList = new StackLinkedList();
+            stackLinkedList.Push(70);
+            stackLinkedList.Push(30);
+            stackLinkedList.Push(56);
+            stackLinkedList.Display();
             Console.ReadLine();
         }
     }
